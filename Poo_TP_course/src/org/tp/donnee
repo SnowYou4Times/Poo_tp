@@ -1,0 +1,32 @@
+TP–Programmation Orientée Objet - Licence 2 Informatique
+
+L’objectif du TP est de fournir les objets de base d’une application permettant de gérer des championnats de courses autos et motos
+
+Les données sont les suivantes:
+•Un championnat comprend uncertain nombre de courses (minimum 2).
+•Une course est composée de vehicules du même type, de même catégorie et de même cylindrée.
+•Une course a lieu à une certaine date.
+•Il y a au minimum 2 motos par course ou 4 voitures par course suivant le cas.
+•Une course de moto est limitée à 20 participants, une course de voitures à 16.
+•Un pilote (nom, prénom, nationalité) est âgé de 18 ans au minimum. Il peut avoir un permis voiture et/ou moto.
+•Un pilote doit avoir le bon permis pour participer à une course.
+•Un ensemble de véhicule de courses et de motos sont référencées pour participer à des courses.
+•Une voiture ou une moto doit s’engager sur un championnat complet.
+•Une fonctionnalité "arrivée course"permet de rentrer les temps de chaque participant.Ensuite elle affiche le classement de la course et du championnat.
+•Les pilotes gagnent 10 points par course gagnée, 8 ponts en seconde position et 2 points en troisième place.
+•Une voiture est caractérisée par une cylindrée, son nombre de roues motrices, son modèle (sport ou classique), une vitesse max, son carburant.
+•Une moto est caractérisée par sa cylindrée, une vitesse max, son type (sportive, enduro, trial), son poids.
+
+Réalisation:
+Vous devez proposer une solution pour gérer les données demandées.
+Les actions possibles sont:
+•Générer un ensemble de voitures et de motos
+•Générer un ensemble de pilotes
+•Créer des courses et des championnats à partir de ces éléments
+•Rentrer les résultats des courses dans l’ordre de leur organisation
+•Afficher les résultats des courses et des championnats
+•Donner le vainqueur de chaque championnat une fois toutes les courses de tous les championnats effectués
+
+Les diverses actions seront testées dans un programme principal.
+Utilisez au maximum ce qui a été vu en cours:
+•Interfaces, héritage, listes etc.
